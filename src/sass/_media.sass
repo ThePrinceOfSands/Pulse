@@ -9,7 +9,36 @@
     .promo
         &__wrapper
             padding-right: 16px
+        .header
+            justify-content: space-between
+            &__logo
+                width: 40%
+                img
+                    width: 80%
+            &__official
+                display: block
+                margin-right: 30px
+                font-size: 10px
+                span
+                    font-size: 14px
+            &__phone
+                font-size: 14px
+                margin-right: 9px
+            .button
+                margin-top: 8px
+                width: 140px
+                font-size: 11px
 
+    .consultation
+        padding-top: 90px
+        .title_left
+            font-size: 25px
+        &__descr
+            margin-top: 60px
+        .button_submit
+            font-size: 14px
+        
+        
 @media ( max-width:  575px)
     .promo
         &__wrapper
@@ -24,8 +53,9 @@
             &__subheader
                 font-size: 15px
             &__logo
+                width: 100%
                 img
-                    width: 85%
+                    width: 67%
         &__header
             font-size: 23px 
         &__subheader
@@ -47,11 +77,23 @@
             margin-top: 42px
             font-size: 10px
     .benefits
-        span
+        .title
             margin-top: 0
             font-size: 24px
         .row
             flex-direction: column
+        &__examples
+            &__text
+                span
+                    font-size: 14px
+    .consultation
+        .title_left
+            font-size: 16px
+        &__descr
+            font-size: 16px
+        .button_submit
+            width: 300px
+
 @media ( max-width: 361px)
     .promo
         .header
@@ -59,7 +101,13 @@
                 font-size: 12px
             &__logo
                 img
-                    width: 80%
+                    width: 95%
+            .button
+                width: 121px
+                font-size: 10px
+                &_main
+                    width: 156px
+                    font-size: 10px
         &__header
             font-size: 20px
         &__subheader
@@ -69,14 +117,21 @@
         &__icon
             font-size: 12px
     .button
-        width: 115px
-        font-size: 8px
         &_main
             width: 156px
             font-size: 10px
     .benefits
-        span
+        title
             font-size: 22px
+    .consultation
+        padding-top: 70px
+        .title_left
+            font-size: 13px
+        &__descr
+            font-size: 13px
+        .button_submit
+            width: 300px
+            font-size: 13px
 
 
     
